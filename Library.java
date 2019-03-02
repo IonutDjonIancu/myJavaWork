@@ -15,7 +15,7 @@ public class Library {
         else {
             for (String n : library.keySet()) {
                 if (library.get(n)) {
-                    System.out.println(library.get(n));
+                    System.out.println(library.get(n) + " " + n);
                 }
             }
         }
